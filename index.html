@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="utility" href="css/utilities.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="hero">
+        <header>
+        <nav id="desktopNav">
+            <img src="img/logo.jpg" class="logo">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <nav id="hamburgerNav">
+         <img src="img/logo.jpg" class="logo" >
+         <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        <div class="menuLinks">
+            <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+                <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+        </div>
+        </nav>
+        </header>
+        <div class="detel">
+            <h1> I am Adnan <span>Bargir</span></h1>
+            <p>This is my portfolio to show all
+                <br> Details and work experience in web development.
+            </p>
+        <a class="button" href="RESUME.pdf" download="RESUME">DOWNLODE CV</a>
+        </div>
+        <div class="images">
+            <img src="img/img1.jpg" class="bck">
+        </div>
+
+
+
+    </div>
+
+    <section class="About">
+
+        <div class="container flex items-center">
+            <div>
+                <img src="img/img2.jpg" class="bck2">
+            </div>
+            <div>
+               <h2>About <span>Me</span></h2> 
+               <p>I am Adnan Bargir currently perceiving B.Tech in Electronics and Telecommunication Engineering. 
+                <br>Seeking an opportunity in the field of Web development. 
+                 Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.</br> I work efficiently both as an individual contributor as well as along with a team.
+                I seek new challenges and try to think out-of-the-box while looking for creative solutions to a given problem.</p>
+               
+               
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
